@@ -1,0 +1,14 @@
+{
+  "base_model": "yresearch/Switti",
+  "artifact": "switti-depth-adapter-pipeline",
+  "pipeline_format_version": 2,
+  "checkpoint_file": "adapter_prefix.pt",
+  "prefix_mode": "none",
+  "train_version": "v3",
+  "prefix_len": 8,
+  "num_scales": 10,
+  "context_dim": 2048,
+  "conditional_prefix_rank": 128,
+  "uses_conditional_prefix_head": true,
+  "adapter_class": "RGBConditionAdapter"
+}
